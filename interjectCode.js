@@ -12,10 +12,10 @@ document.addEventListener("DOMContentLoaded", function() {
    :root {
       /* Modify these to change your theme colors: */
       --primary: #09F;
-      --text: #888;
-      --background: #111;
+      --text: #ABB2BF;
+      --background: #080808;
       --background-elevated: #222;
-   } 
+   }
 
    a[aria-label^="NAME_OF_CHANNEL_OR_DIRECT_CONVO_TO_STYLE"]
    {
