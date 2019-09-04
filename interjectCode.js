@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", function() {
    let customCustomCSS = `
    :root {
       /* Modify these to change your theme colors: */
-      --primary: #09F;
+      --primary: #66d9ef;
       --text: #EEEEEC;
-      --background: #2D2D2D;
+      --background: #1C1C1C;
       --background-elevated: #222;
    }
 
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         --letter-spacing: 2px !important;
         --text-shadow: 1px 1px white;
 
-    }   `
+   }   `
 
    // Insert a style tag into the wrapper view
    cssPromise.then(css => {
