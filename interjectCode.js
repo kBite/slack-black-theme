@@ -8,6 +8,44 @@ document.addEventListener("DOMContentLoaded", function() {
    const cssPath = 'https://raw.githubusercontent.com/kBite/slack-black-theme/kbite/custom.css';
    let cssPromise = fetch(cssPath).then(response => response.text());
 
+//     :root {
+//       /* Modify these to change your theme colors: */
+//       --primary: ${theme.primary};
+//       --primaryT: ${theme.primaryT};
+//       --accent: ${theme.accent};
+//       --accentT: ${theme.accentT};
+//       --accent2: ${theme.accent2};
+//       --accent2T: ${theme.accent2T};
+//       --bg: ${theme.bg};
+//       --fg: ${theme.fg};
+//       --text: ${theme.text};
+//       --selectBg: ${theme.selectBg};
+//       --selectFg: ${theme.selectFg};
+//       --button: ${theme.button};
+//       --secondBg: ${theme.secondBg};
+//       --disabled: ${theme.disabled};
+//       --contrast: ${theme.contrast};
+//       --active: ${theme.active};
+//       --border: ${theme.border};
+//       --hl: ${theme.hl};
+//       --tree: ${theme.tree};
+//       --notif: ${theme.notif};
+//       --excluded: ${theme.excluded};
+//
+//       --yellow: ${theme.yellow};
+//       --green: ${theme.green};
+//       --cyan: ${theme.cyan};
+//       --blue: ${theme.blue};
+//       --purple: ${theme.purple};
+//       --red: ${theme.red};
+//       --red2: ${theme.red2};
+//       --orange: ${theme.orange};
+//       --orange2: ${theme.orange2};
+//       --gray: ${theme.gray};
+//       --silver: ${theme.silver};
+//       --black: ${theme.black};
+//     }
+
    let customCustomCSS = `
    :root {
       /* Modify these to change your theme colors: */
